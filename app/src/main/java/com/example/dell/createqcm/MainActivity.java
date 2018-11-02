@@ -45,7 +45,7 @@ public class MainActivity extends AppCompatActivity {
         button.setLayoutParams(buttonParams);
         button.setText("Let Begin");
         button.setId(View.generateViewId());
-        button.setTransformationMethod(null);
+        button.setTransformationMethod(null); //Make text in button to lowercase letter
 
 
 
